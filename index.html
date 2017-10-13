@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Memória játék</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.js"></script>
+<script src="js/global.js?v=1.0"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="game_wrap">
+		<script>memory.init();</script>
+	</div>
+	<div class="score_wrap">
+		<h3 class="probalkozas">Hibák száma: 0</h3>
+		<hr>
+		<div class="score_board">
+			<ol class="score_ol">
+				<li class="n1" style="color: yellow; font-size: 20px; font-weight: bold;"></li>
+				<li class="n2" style="color: silver; font-size: 20px; font-weight: bold;"></li>
+				<li class="n3" style="color: #C75A00; font-size: 20px; font-weight: bold;"></li>
+			</ol>
+		</div>
+		<div class="new_game_wrap">
+			<input class="btn btn-primary" type="button" value="Új Játék" onclick="memory.init();">
+		</div>
+	</div>
+</body>
+</html>

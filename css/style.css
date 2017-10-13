@@ -1,0 +1,109 @@
+body {
+	background: #CEE7F2;
+}
+.game_wrap {
+	background: #000;
+	background-image: url('../bg.jpg');
+	border: #999 1px solid;
+	width: 660px;
+	height: 540px;
+	padding: 24px;
+	margin: 0 auto;
+}
+.score_wrap {
+	width: 650px;
+	height: 220px;
+	border: #999 1px solid;
+	border-radius: 0 0 10px 10px;
+	margin: 0 auto;
+	background-color: #68C8DE;
+}
+.score_board {
+	margin: 0 auto;
+	width: 60px;
+}
+.new_game_wrap {
+	width: 100%;
+	text-align: center;
+}
+.new_game_wrap input {
+	margin: 0 auto;
+}
+.card {
+	width: 71px;
+	height: 71px;
+	float: left;
+	position: relative;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center;
+    border-radius: 5px;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-o-transition: -o-transform 1s;
+	transition: transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 50%;
+}
+.card:hover {
+    -webkit-box-shadow: 4px 6px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 6px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 25px 0px rgba(0,0,0,0.75);
+    transition: all box-shadow 0.3s ease-in-out;
+}
+.probalkozas{
+	min-height: 23px;
+	text-align: center;
+}
+.card div {
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card .front {
+  	top: 0;
+	left: 0;
+	background-color: #FFF;
+	background-image: url(../logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card .back {
+	color: #000;
+	padding: 0px;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+	-webkit-transform: rotateY( 180deg);
+	-moz-transform: rotateY( 180deg);
+	-o-transform: rotateY( 180deg);
+	transform: rotateY( 180deg);
+}
+
+.card.flipped {
+	top:0;
+	-webkit-transform: rotateY( 180deg);
+	-moz-transform: rotateY( 180deg);
+	-o-transform: rotateY( 180deg);
+	transform: rotateY( 180deg);
+}
+
+.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn.focus,.btn:focus,.btn:hover{color:#333;text-decoration:none}.btn.active,.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65}a.btn.disabled,fieldset[disabled] a.btn{pointer-events:none}
+.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}.btn-primary.focus,.btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-primary{color:#fff;background-color:#286090;border-color:#204d74}.btn-primary.active.focus,.btn-primary.active:focus,.btn-primary.active:hover,.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover,.open>.dropdown-toggle.btn-primary.focus,.open>.dropdown-toggle.btn-primary:focus,.open>.dropdown-toggle.btn-primary:hover{color:#fff;background-color:#204d74;border-color:#122b40}.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-primary{background-image:none}.btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled]
